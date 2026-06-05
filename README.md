@@ -29,6 +29,7 @@ The objective is to showcase an absolute mastery of data cleaning, exploratory a
 ---
 
 ### 📊 Visual Proof: Impact of Log Transformation
+<img src="https://github.com/mahmudulhasantechnology-cmyk/data-preprocessing-pipeline/blob/main/data-preprocessing-pipeline.pdf" width="80%">
 Below is the empirical proof showing how the heavily skewed `Fare` data is successfully normalized using `np.log1p` to make it algorithm-ready. 
 
 <div style="text-align: center; margin: 25px 0;">
