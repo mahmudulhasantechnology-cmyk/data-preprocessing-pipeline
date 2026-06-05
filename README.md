@@ -29,14 +29,29 @@ The objective is to showcase an absolute mastery of data cleaning, exploratory a
 ---
 
 ### 📊 Visual Proof: Impact of Log Transformation
-Below is the empirical proof showing how the heavily skewed `Fare` data is successfully normalized using `np.log1p` to make it algorithm-ready:
+Below is the empirical proof showing how the heavily skewed `Fare` data is successfully normalized using `np.log1p` to make it algorithm-ready. 
 
-Distribution Comparison
-<div style="text-align: center; margin: 20px 0;">
-  <img src="https://github.com/mahmudulhasantechnology-cmyk/data-preprocessing-pipeline/blob/main/data-preprocessing-pipeline.pdf" alt="Log Transformation Proof" style="max-width: 100%; height: auto;">
-  <p style="font-style: italic; color: #555;">Figure 1: Side-by-side comparison of Fare distribution before and after Log Transformation.</p>
+<div style="text-align: center; margin: 25px 0;">
+  <!-- Render the visual graph image -->
+  <img src="distribution_comparison.png" alt="Log Transformation Proof" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+  
+  <p style="font-style: italic; color: #555; margin-top: 12px; font-size: 14px;">
+    Figure 1: Side-by-side empirical distribution comparison before and after Log Transformation.
+  </p>
+
+  <!-- Clean, styled call-to-action button linking directly to your verification PDF report -->
+  <div style="margin-top: 20px;">
+    <a href="https://github.com/mahmudulhasantechnology-cmyk/data-preprocessing-pipeline/blob/main/data-preprocessing-pipeline.pdf" 
+       target="_blank" 
+       style="background-color: #0366d6; color: white; padding: 10px 20px; text-decoration: none; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: bold; border-radius: 6px; display: inline-block; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+       📄 View Detailed Project PDF Report
+    </a>
+  </div>
 </div>
 
+---
+
+## 📊 Summary Mapping Table
 
 ---
 
