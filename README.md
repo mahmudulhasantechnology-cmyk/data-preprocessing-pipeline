@@ -44,7 +44,6 @@ Below is the empirical proof showing how the heavily skewed `Fare` data is succe
     <a href="https://github.com/mahmudulhasantechnology-cmyk/data-preprocessing-pipeline/blob/main/data-preprocessing-pipeline.pdf" 
        target="_blank" 
        style="background-color: #0366d6; color: white; padding: 10px 20px; text-decoration: none; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: bold; border-radius: 6px; display: inline-block; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-       📄 View Detailed Project PDF Report
     </a>
   </div>
 </div>
