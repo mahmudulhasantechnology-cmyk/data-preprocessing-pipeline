@@ -31,13 +31,12 @@ The objective is to showcase an absolute mastery of data cleaning, exploratory a
 ### 📊 Visual Proof: Impact of Log Transformation
 Below is the empirical proof showing how the heavily skewed `Fare` data is successfully normalized using `np.log1p` to make it algorithm-ready:
 
-![Distribution Comparison](<div class="image-container">
-    <img src="[distribution_comparison.png](https://github.com/mahmudulhasantechnology-cmyk/data-preprocessing-pipeline/blob/main/data-preprocessing-pipeline.pdf)" alt="Data Scaling Visual Proof" class="responsive-img">
-    <div class="image-caption">
-        <strong>Visual Evidence:</strong> Scale stabilization via mathematical transformations.
-    </div>
+Distribution Comparison
+<div style="text-align: center; margin: 20px 0;">
+  <img src="https://github.com/mahmudulhasantechnology-cmyk/data-preprocessing-pipeline/blob/main/data-preprocessing-pipeline.pdf" alt="Log Transformation Proof" style="max-width: 100%; height: auto;">
+  <p style="font-style: italic; color: #555;">Figure 1: Side-by-side comparison of Fare distribution before and after Log Transformation.</p>
 </div>
-)
+
 
 ---
 
