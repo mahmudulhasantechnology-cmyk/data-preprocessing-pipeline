@@ -33,7 +33,7 @@ Below is the empirical proof showing how the heavily skewed `Fare` data is succe
 
 <div style="text-align: center; margin: 25px 0;">
   <!-- Render the visual graph image -->
-  <img src="distribution_comparison.png" alt="Log Transformation Proof" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+  <img src="https://github.com/mahmudulhasantechnology-cmyk/data-preprocessing-pipeline/blob/main/data-preprocessing-pipeline.pdf" width="80%">
   
   <p style="font-style: italic; color: #555; margin-top: 12px; font-size: 14px;">
     Figure 1: Side-by-side empirical distribution comparison before and after Log Transformation.
@@ -48,10 +48,6 @@ Below is the empirical proof showing how the heavily skewed `Fare` data is succe
     </a>
   </div>
 </div>
-
----
-
-## 📊 Summary Mapping Table
 
 ---
 
