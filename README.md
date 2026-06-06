@@ -1,30 +1,60 @@
-# Comprehensive Data Cleaning, Categorical Encoding, and Feature Scaling
+<h1 align="center">🧹 Data Preprocessing & Feature Engineering Pipeline</h1>
+<h3 align="center">Comprehensive Data Cleaning, Categorical Encoding, and Feature Scaling</h3>
 
-## 📌 Project Overview
-This project serves as a comprehensive demonstration of core data science preprocessing techniques. It builds a robust preprocessing pipeline to handle common real-world data challenges, including missing values, unformatted categorical fields, and heavily skewed numerical distributions. 
+<p align="center">
+  <img src="https://shields.io">
+  <img src="https://shields.io">
+  <img src="https://shields.io">
+</p>
 
-The objective is to showcase an absolute mastery of data cleaning, exploratory analysis, and diverse feature transformation methodologies using Python, Scikit-Learn, and Seaborn.
+<hr>
 
----
+<h2>📌 Overview</h2>
+<p>
+This project serves as a comprehensive demonstration of core data science preprocessing techniques. It builds a robust preprocessing pipeline to handle common real-world data challenges, including missing values, unformatted categorical fields, and heavily skewed numerical distributions.
+</p>
 
-## 🛠️ Preprocessing Methodologies Applied
+<p>
+🎯 <b>Goal:</b> Showcase mastery of data cleaning, exploratory analysis, and diverse feature transformation methodologies using Python, Scikit-Learn, and Seaborn.
+</p>
 
-### 1. Data Cleaning & Imputation
-* **Missing Numerical Values:** Handled missing data in the `Age` feature by applying **Median Imputation** to prevent distortion from potential outliers.
-* **Missing Categorical Values:** Handled missing data in the `Embarked` feature by using **Mode Imputation** (most frequent value).
-* **Structural Safety:** Verified integrity to ensure no data leakage occurred during the cleaning phase.
+<hr>
 
-### 2. Categorical Encoding (Concept & Implementation)
-* **Label Encoding:** Applied to target variables (`Survived`) to convert classes into simple mathematical integers ($0$ and $1$).
-* **Ordinal Encoding:** Applied to the `Ticket_Class` feature to explicitly preserve the inherent rank and order (`Low < Medium < High`).
-* **One-Hot Encoding:** Applied to the nominal `Sex` feature to split values into binary features without implying an unearned mathematical hierarchy. Used `drop='first'` to prevent multicollinearity (the dummy variable trap).
+<h2>🎯 Objectives</h2>
+<ul>
+  <li>✔ Build an end-to-end robust data preprocessing pipeline</li>
+  <li>✔ Resolve missing values safely without data leakage</li>
+  <li>✔ Implement diverse encoding techniques based on mathematical hierarchy</li>
+  <li>✔ Handle extreme outliers and skewed features effectively</li>
+  <li>✔ Prepare raw datasets for seamless machine learning integration</li>
+</ul>
 
-### 3. Feature Scaling & Transformations
-* **StandardScaler:** Applied to `Age` to recalculate metrics based on Z-scores (mean = 0, standard deviation = 1) for algorithms assuming normal distribution.
-* **MinMaxScaler:** Applied to `Age` to bound features strictly within a 0 to 1 interval, making it ready for neural network integration.
-* **RobustScaler:** Applied to the heavily skewed `Fare` column. By scaling via the median and Interquartile Range (IQR), it resists being distorted by extreme ticket outliers.
-* **MaxAbsScaler:** Demonstrated on the matrix to scale values between -1 and 1 based on absolute maximums, preserving sparsity.
-* **Log Transformation ($log(x+1)$):** Applied to `Fare` to minimize extreme right skewness, pulling the distributed tail back into a balanced bell curve.
+<hr>
+
+<h2>🛠️ Preprocessing Methodologies Applied</h2>
+
+<h3>1. Data Cleaning & Imputation</h3>
+<ul>
+  <li><b>Missing Numerical Values:</b> Handled missing data in the <code>Age</code> feature by applying <b>Median Imputation</b> to prevent distortion from potential outliers.</li>
+  <li><b>Missing Categorical Values:</b> Handled missing data in the <code>Embarked</code> feature by using <b>Mode Imputation</b> (most frequent value).</li>
+  <li><b>Structural Safety:</b> Verified integrity to ensure no data leakage occurred during the cleaning phase.</li>
+</ul>
+
+<h3>2. Categorical Encoding</h3>
+<ul>
+  <li><b>Label Encoding:</b> Applied to target variables (<code>Survived</code>) to convert classes into simple mathematical integers (0 and 1).</li>
+  <li><b>Ordinal Encoding:</b> Applied to the <code>Ticket_Class</code> feature to explicitly preserve the inherent rank and order (Low &lt; Medium &lt; High).</li>
+  <li><b>One-Hot Encoding:</b> Applied to the nominal <code>Sex</code> feature to split values into binary features without implying an unearned mathematical hierarchy. Used <code>drop='first'</code> to prevent multicollinearity (the dummy variable trap).</li>
+</ul>
+
+<h3>3. Feature Scaling & Transformations</h3>
+<ul>
+  <li><b>StandardScaler:</b> Applied to <code>Age</code> to recalculate metrics based on Z-scores (mean = 0, standard deviation = 1) for algorithms assuming normal distribution.</li>
+  <li><b>MinMaxScaler:</b> Applied to <code>Age</code> to bound features strictly within a 0 to 1 interval, making it ready for neural network integration.</li>
+  <li><b>RobustScaler:</b> Applied to the heavily skewed <code>Fare</code> column. By scaling via the median and Interquartile Range (IQR), it resists being distorted by extreme ticket outliers.</li>
+  <li><b>MaxAbsScaler:</b> Demonstrated on the matrix to scale values between -1 and 1 based on absolute maximums, preserving sparsity.</li>
+  <li><b>Log Transformation (log(x+1)):</b> Applied to <code>Fare</code> to minimize extreme right skewness, pulling the distributed tail back into a balanced bell curve.</li>
+</ul>
 
 ---
 
