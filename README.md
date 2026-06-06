@@ -55,6 +55,39 @@ This project serves as a comprehensive demonstration of core data science prepro
   <li><b>MaxAbsScaler:</b> Demonstrated on the matrix to scale values between -1 and 1 based on absolute maximums, preserving sparsity.</li>
   <li><b>Log Transformation (log(x+1)):</b> Applied to <code>Fare</code> to minimize extreme right skewness, pulling the distributed tail back into a balanced bell curve.</li>
 </ul>
+  <li>✔ Build an end-to-end robust data preprocessing pipeline</li>
+  <li>✔ Resolve missing values safely without data leakage</li>
+  <li>✔ Implement diverse encoding techniques based on mathematical hierarchy</li>
+  <li>✔ Handle extreme outliers and skewed features effectively</li>
+  <li>✔ Prepare raw datasets for seamless machine learning integration</li>
+</ul>
+
+<hr>
+
+<h2>🛠️ Preprocessing Methodologies Applied</h2>
+
+<h3>1. Data Cleaning & Imputation</h3>
+<ul>
+  <li><b>Missing Numerical Values:</b> Handled missing data in the <code>Age</code> feature by applying <b>Median Imputation</b> to prevent distortion from potential outliers.</li>
+  <li><b>Missing Categorical Values:</b> Handled missing data in the <code>Embarked</code> feature by using <b>Mode Imputation</b> (most frequent value).</li>
+  <li><b>Structural Safety:</b> Verified integrity to ensure no data leakage occurred during the cleaning phase.</li>
+</ul>
+
+<h3>2. Categorical Encoding</h3>
+<ul>
+  <li><b>Label Encoding:</b> Applied to target variables (<code>Survived</code>) to convert classes into simple mathematical integers (0 and 1).</li>
+  <li><b>Ordinal Encoding:</b> Applied to the <code>Ticket_Class</code> feature to explicitly preserve the inherent rank and order (Low &lt; Medium &lt; High).</li>
+  <li><b>One-Hot Encoding:</b> Applied to the nominal <code>Sex</code> feature to split values into binary features without implying an unearned mathematical hierarchy. Used <code>drop='first'</code> to prevent multicollinearity (the dummy variable trap).</li>
+</ul>
+
+<h3>3. Feature Scaling & Transformations</h3>
+<ul>
+  <li><b>StandardScaler:</b> Applied to <code>Age</code> to recalculate metrics based on Z-scores (mean = 0, standard deviation = 1) for algorithms assuming normal distribution.</li>
+  <li><b>MinMaxScaler:</b> Applied to <code>Age</code> to bound features strictly within a 0 to 1 interval, making it ready for neural network integration.</li>
+  <li><b>RobustScaler:</b> Applied to the heavily skewed <code>Fare</code> column. By scaling via the median and Interquartile Range (IQR), it resists being distorted by extreme ticket outliers.</li>
+  <li><b>MaxAbsScaler:</b> Demonstrated on the matrix to scale values between -1 and 1 based on absolute maximums, preserving sparsity.</li>
+  <li><b>Log Transformation (log(x+1)):</b> Applied to <code>Fare</code> to minimize extreme right skewness, pulling the distributed tail back into a balanced bell curve.</li>
+</ul>
 
 ---
 
