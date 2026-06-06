@@ -12,7 +12,7 @@
 
 <h2>🖼️ Project Preview</h2>
 <p align="center">
-  <img src="https://github.com/mahmudulhasantechnology-cmyk/data-preprocessing-pipeline/blob/main/data-preprocessing-pipeline.pdf" alt="Data Preprocessing Pipeline Preview" width="900">
+  <img src="https://github.com/mahmudulhasantechnology-cmyk/data-preprocessing-pipeline/blob/Sub-branch/data-preprocessing-pipeline.jpg" alt="Data Preprocessing Pipeline Preview" width="900">
 </p>
 
 <hr>
